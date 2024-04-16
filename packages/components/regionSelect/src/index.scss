@@ -1,0 +1,90 @@
+
+// flex
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+// width
+.w170{
+    width: 170px;
+}
+.w240{
+    width: 240px;
+}
+.h30{
+    height: 30px;
+    line-height: 30px;
+}
+.h40{
+    height: 40px;
+    line-height: 40px;
+}
+.h45{
+    height: 45px;
+    line-height: 45px;
+}
+.pd10{
+    padding: 10px;
+}
+.pd-lr-10{
+    padding: 0 10px;
+}
+.p-l-10{
+    padding-left: 10px;
+}
+.m-r-15 {
+    margin-right: 15px;
+}
+//text
+.text-align-left{
+    text-align: left;
+}
+.border-bottom{
+    border-bottom: 1px solid #EAF2FD;
+}
+.border-right{
+    border-right: 1px solid #EAF2FD;
+}
+
+// main
+.region-box{
+    background-color: #ffffff;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    .area-pick{
+        height: 100%;
+    }
+    &-title{
+        height: 40px;
+        line-height: 40px;
+        text-align: left;
+    }
+    .active-province{
+        background: #e2ebf9;
+        color: #40a9ff;
+    }
+}
+.border-box{
+    box-sizing: border-box;
+}
+.pointer{
+    cursor: pointer;
+}
+.overflow-y-scroll{
+    overflow-y: scroll;
+
+}

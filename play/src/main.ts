@@ -13,8 +13,11 @@ import Icon from '@zyr/components/icon/index';
 import '@zyr/theme-chalk/src/index.scss';
 import Tree from '@zyr/components/tree/index';
 import Button from '@zyr/components/button/index';
+import RegionSelect from '@zyr/components/regionSelect/index';
 
-const plugins = [Icon, Tree, Button];
+console.log('RegionSelect :>> ', RegionSelect);
+
+const plugins = [Icon, Tree, Button, RegionSelect];
 
 const app = createApp(App);
 // 注册全局组件

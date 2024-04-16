@@ -16,6 +16,7 @@
     "@zyr/components": "workspace:^",
     "@zyr/theme-chalk": "workspace:^",
     "@zyr/utils": "workspace:^",
+    "pnpm": "^8.15.7",
     "typescript": "^5.3.3",
     "unplugin-vue-define-options": "^1.4.2",
     "vue": "^3.4.21"

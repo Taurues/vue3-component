@@ -17,6 +17,9 @@ importers:
       '@zyr/utils':
         specifier: workspace:^
         version: link:packages/utils
+      pnpm:
+        specifier: ^8.15.7
+        version: 8.15.7
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -1960,6 +1963,12 @@ packages:
       jsonc-parser: 3.2.1
       mlly: 1.6.1
       pathe: 1.1.2
+    dev: false
+
+  /pnpm@8.15.7:
+    resolution: {integrity: sha512-yFzSG22hAzIVaxyiqnnAph7nrS6wRTuIqymSienoypPmCRIyslwHy/YfbfdxKNnISeXJrG5EhU29IRxJ86Z63A==, tarball: https://registry.npmmirror.com/pnpm/-/pnpm-8.15.7.tgz}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: false
 
   /postcss-selector-parser@6.0.15:
