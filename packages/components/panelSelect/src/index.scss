@@ -65,8 +65,11 @@
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     .area-pick{
-        height: 100%;
+        flex: 1;
+        overflow-y: scroll;
     }
     &-title{
         height: 40px;
