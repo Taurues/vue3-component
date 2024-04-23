@@ -2,7 +2,7 @@
  * @Author: zhangyanru zhangyanru@wshifu.com
  * @Date: 2024-04-15 14:39:15
  * @LastEditors: zhangyanru zhangyanru@wshifu.com
- * @LastEditTime: 2024-04-19 16:31:10
+ * @LastEditTime: 2024-04-22 17:27:28
  * @FilePath: /vue3-component/packages/components/regionSelect/src/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -18,7 +18,7 @@ export const panelSelectProps = {
   // 选中的数据
   selectData: {
     type: Array as PropType<SelectDataType[]>,
-    default: () => [640300]
+    default: () => []
   },
   labelField: {
     type: String,
@@ -30,7 +30,7 @@ export const panelSelectProps = {
   },
   childrenField: {
     type: String,
-    default: 'childList'
+    default: 'children'
   }
 } as const
 
@@ -50,7 +50,7 @@ export type DataType = {
 }
 
 // 传入的selectData类型
-export type SelectDataType = Id | {
+export type SelectDataType = {
   id: Id;
   name?: string;
   parentId?: Id;
